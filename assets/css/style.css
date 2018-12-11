@@ -1,0 +1,75 @@
+/* -----------------------------------------------------------------------
+
+  style.css
+
+  - general
+  - typography
+  - grid styles
+  - header
+  - section
+  - footer
+
+ ----------------------------------------------------------------------- */
+
+/* general */
+html {
+  background-color: #d3d3d3;
+}
+header, footer {
+  background-color: #f08080;
+}
+p {
+  margin: 15px;
+}
+img {
+  width: 100%;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* typography */
+body {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* grid styles */
+#coll, #viz {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax( 320px, 1fr ) );
+  grid-gap: 15px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* header */
+header {
+  height: 50px;
+  min-width: 400px;
+}
+header h1 {
+  margin: 30px;
+  text-align: center;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* section */
+section div {
+  min-height: 350px;
+  align-self: center;
+}
+div p {
+  background-color: #f08080;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* footer */
+footer {
+  height: 50px;
+}
